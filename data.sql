@@ -1,41 +1,41 @@
 ﻿/* 組織 */
 INSERT INTO ORGANIZATION (ORGANIZATIONID, ORGANIZATION_NAME) 
-VALUES('1', '営業部')
+VALUES('1', N'営業部')
 GO
 INSERT INTO ORGANIZATION (ORGANIZATIONID, ORGANIZATION_NAME) 
-VALUES('2', '経理部')
+VALUES('2', N'経理部')
 GO
 
 /* 社員 */
 INSERT INTO EMPLOYEE (EMPLOYEEID, LOGINID, PASSWORD, EMPLOYEE_NAME, ORGANIZATIONID) 
-VALUES('1', 'user01', 'user01', '太郎', '1')
+VALUES('1', 'user01', 'user01', N'太郎', '1')
 GO
 INSERT INTO EMPLOYEE (EMPLOYEEID, LOGINID, PASSWORD, EMPLOYEE_NAME, ORGANIZATIONID) 
-VALUES('2', 'user02', 'user02', '次郎', '1')
+VALUES('2', 'user02', 'user02', N'次郎', '1')
 GO
 INSERT INTO EMPLOYEE (EMPLOYEEID, LOGINID, PASSWORD, EMPLOYEE_NAME, ORGANIZATIONID) 
-VALUES('3', 'user03', 'user03', '花子', '2')
+VALUES('3', 'user03', 'user03', N'花子', '2')
 GO
 INSERT INTO EMPLOYEE (EMPLOYEEID, LOGINID, PASSWORD, EMPLOYEE_NAME, ORGANIZATIONID) 
-VALUES('4', 'user04', 'user04', '桃子', '2')
+VALUES('4', 'user04', 'user04', N'桃子', '2')
 GO
 
 /* 店舗 */
-INSERT INTO STORE VALUES ('KCD001', '勝どき本店', '東京都中央区勝どきx')
+INSERT INTO STORE VALUES ('KCD001', N'勝どき本店', N'東京都中央区勝どきx')
 GO
-INSERT INTO STORE VALUES ('OSK001', '大阪本町店', '大阪府大阪市中央区本町x')
+INSERT INTO STORE VALUES ('OSK001', N'大阪本町店', N'大阪府大阪市中央区本町x')
 GO
-INSERT INTO STORE VALUES ('NGY001', '名古屋店', '愛知県名古屋市中区錦x')
+INSERT INTO STORE VALUES ('NGY001', N'名古屋店', N'愛知県名古屋市中区錦x')
 GO
-INSERT INTO STORE VALUES ('OKZ001', '岡崎店', '愛知県岡崎市康生通南x')
+INSERT INTO STORE VALUES ('OKZ001', N'岡崎店', N'愛知県岡崎市康生通南x')
 GO
-INSERT INTO STORE VALUES ('SPR001', '白石店', '北海道札幌市白石区x')
+INSERT INTO STORE VALUES ('SPR001', N'白石店', N'北海道札幌市白石区x')
 GO
-INSERT INTO STORE VALUES ('SND001', '青葉店', '宮城県仙台市青葉区x')
+INSERT INTO STORE VALUES ('SND001', N'青葉店', N'宮城県仙台市青葉区x')
 GO
-INSERT INTO STORE VALUES ('NGY002', '栄店', '名古屋市中区栄x')
+INSERT INTO STORE VALUES ('NGY002', N'栄店', N'名古屋市中区栄x')
 GO
-INSERT INTO STORE VALUES ('HRS001', '広島店', '広島県広島市中区橋本町x')
+INSERT INTO STORE VALUES ('HRS001', N'広島店', N'広島県広島市中区橋本町x')
 GO
-INSERT INTO STORE VALUES ('FUK001', '福岡店', '福岡県福岡市博多区x-x')
+INSERT INTO STORE VALUES ('FUK001', N'福岡店', N'福岡県福岡市博多区x-x')
 GO
