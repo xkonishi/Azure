@@ -1,0 +1,8 @@
+﻿<< SQL Database >>
+
+server name: keith.database.windows.net
+user: TUTORIAL
+pass: as usual
+
+
+
