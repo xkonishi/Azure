@@ -5,4 +5,5 @@ user: TUTORIAL
 pass: as usual
 
 
+EventCreate /ID 1000 /T INFORMATION /L APPLICATION /SO PrognerFramework /D "イベントログソース作成"
 
