@@ -9,3 +9,5 @@ EventCreate /ID 1000 /T INFORMATION /L APPLICATION /SO PrognerFramework /D "ã‚¤ã
 
 win server
 ip:52.158.237.157
+u:konishi
+p:524...P..
