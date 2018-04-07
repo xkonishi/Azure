@@ -7,3 +7,5 @@ pass: as usual
 
 EventCreate /ID 1000 /T INFORMATION /L APPLICATION /SO PrognerFramework /D "イベントログソース作成"
 
+win server
+ip:52.158.237.157
